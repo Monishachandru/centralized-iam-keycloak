@@ -1,0 +1,18 @@
+
++-------------------+        +-------------------+
+|   Web / Mobile    |        |   Backend APIs    |
+|   Applications    |        |   Microservices   |
++---------+---------+        +---------+---------+
+          |                            |
+          | OAuth2 / OIDC              | JWT Validation
+          |                            |
+          v                            v
++---------------------------------------------------+
+|                   Keycloak                        |
+|  - Authentication                                 |
+|  - Authorization (RBAC)                           |
+|  - Token Issuance (JWT)                           |
+|  - MFA / OTP                                      |
+|  - User & Role Management                         |
++---------------------------------------------------+
+```
